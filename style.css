@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .gamearea {
-    background-image: url(/snowymountains.png);
+    background-image: url(images/snowymountains.png);
     background-position: bottom;
     background-size: cover;
     width: 100%;
