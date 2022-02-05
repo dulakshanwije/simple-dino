@@ -8,6 +8,20 @@
     <title>Runner</title>
 </head>
 <body>
+    <div class="gamelost" id="gamelost">
+        <p>Game Lost</p>
+        <a href="index.html" class="btn-restart">Restart</a>
+    </div>
+    <div class="gameover" id="gameover">
+        <p>Game Over</p>
+        <p>Congratulation !!!</p>
+        <a href="index.html" class="btn-restart">Play Again</a>
+    </div>
+    <div class="playerinfo">
+        <p>Score : <span id="count"></span></p>
+        <label for="progress_bar">Level :</label>
+        <progress value="0" max="300" id="progress_bar"></progress>
+    </div>
     <div id="gamearea" class="gamearea">
         <!-- <div id="character" class="character"> -->
             <img class="character" id="character" src="images/figure-mod.gif" alt="">
