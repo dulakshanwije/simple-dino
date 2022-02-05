@@ -30,5 +30,5 @@ setInterval(function(){
         }
     }
     // console.log(blocker_left);
-},100);
+},10);
 
