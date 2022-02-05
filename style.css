@@ -35,6 +35,17 @@
     animation: jump 0.8s infinite linear;
 }
 
+@media screen and (max-width : 720px) {
+    .block {
+        animation: block 1.5s infinite linear;
+    }
+}
+@media screen and (max-width : 600px) {
+    .block {
+        animation: block 2s infinite linear;
+    }
+}
+
 @keyframes block {
     0%{right:0%;}
     100%{right: 100%;}
