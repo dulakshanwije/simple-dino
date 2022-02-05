@@ -42,7 +42,7 @@
 }
 @media screen and (max-width : 600px) {
     .block {
-        animation: block 2s infinite linear;
+        animation: block 1s infinite linear;
     }
 }
 
